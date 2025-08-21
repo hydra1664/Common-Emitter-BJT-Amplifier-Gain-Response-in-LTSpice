@@ -1,0 +1,1 @@
+# Common-Emitter-BJT-Amplifier-Gain-Response-in-LTSpice
