@@ -24,8 +24,7 @@ The amplifier uses a 2N3904 in a classic common-emitter configuration with a res
 Input goes through C1 into the base. R1 and R2 form the bias network. The collector connects to +12 V through R3. The emitter goes to ground through R4 in parallel with C3. Output is taken at the collector and routed through C2.
 
 ## Circuit preview
-Images/Figure_1_Circuit.png  
-(placeholder — schematic screenshot here)
+<img width="1920" height="1080" alt="BJT Amplifier" src="https://github.com/user-attachments/assets/1877daa9-1f05-4e0d-badc-9ac4f747f062" />
 
 ## Simulation setup
 AC analysis with an octave sweep:
@@ -43,8 +42,7 @@ I measured gain using voltage markers at the input and the AC-coupled output nod
 The gain is flat across the midband and starts to drop below a few hundred hertz due to the coupling/bypass network. On the high end, the small capacitor and device parasitics pull the response down around a few-tens of kilohertz. Bypassing the emitter with C3 noticeably lifts midband gain compared to leaving it unbypassed.
 
 ## Gain plot
-Images/Figure_2_Gain_Response.png  
-(placeholder — magnitude vs frequency plot here)
+<img width="1920" height="1080" alt="Gain Response" src="https://github.com/user-attachments/assets/26832a1d-1b89-47d2-8b4c-5ef9a3ef9224" />
 
 ## How to reproduce
 1. Open the .asc file from the Circuit Files folder in LTSpice.  
